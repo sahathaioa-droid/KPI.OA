@@ -1,0 +1,660 @@
+<!DOCTYPE html>
+<html lang="th">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#881337" />
+    <meta
+      name="description"
+      content="แดชบอร์ดเป้าหมาย KPI แผนก O.A. ประจำปี 2569 พร้อมแผนภูมิวงกลมน้ำหนักตัวชี้วัด เกณฑ์การประเมินผล ตารางผลการดำเนินงาน และแบบฟอร์มบันทึกผลแบบออนไลน์"
+    />
+    <title>เป้าหมาย KPI แผนก O.A. ประจำปี 2569</title>
+
+    <link rel="icon" type="image/svg+xml" href="assets/images/favicon.svg" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans+Thai:wght@400;500;600;700&family=Prompt:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="assets/css/styles.css" />
+  </head>
+
+  <body class="min-h-screen">
+    <a class="skip-link" href="#main">ข้ามไปยังเนื้อหาหลัก</a>
+
+    <header class="site-header">
+      <div class="container-page flex h-[72px] items-center justify-between gap-4">
+        <a href="index.html" class="flex min-w-0 items-center gap-3" aria-label="KPI O.A. 2569 หน้าแรก">
+          <span class="brand-mark">OA</span>
+          <span class="min-w-0 leading-tight">
+            <span class="block truncate font-display text-[15px] font-semibold text-slate-900">KPI O.A.</span>
+            <span class="block truncate text-[12px] font-medium uppercase tracking-[0.19em] text-slate-500">
+              Annual Performance 2569
+            </span>
+          </span>
+        </a>
+
+        <nav class="flex items-center gap-1" aria-label="เมนูหลัก">
+          <a class="nav-link nav-link-active" href="index.html" aria-current="page">
+            <svg class="h-4 w-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true">
+              <path d="M4 19V9m6 10V5m6 14v-7m4 7H2" stroke-linecap="round" />
+            </svg>
+            <span class="hidden sm:inline">ภาพรวม KPI</span>
+            <span class="sm:hidden">ภาพรวม</span>
+          </a>
+          <a class="nav-link" href="performance.html">
+            <svg class="h-4 w-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true">
+              <path d="M4 19V5m0 14h16M8 15l3-4 3 2 4-6" stroke-linecap="round" stroke-linejoin="round" />
+            </svg>
+            <span class="hidden sm:inline">ผลการดำเนินงาน</span>
+            <span class="sm:hidden">ผลงาน</span>
+          </a>
+        </nav>
+
+        <a href="#kpiForm" class="btn-primary hidden px-4 py-2.5 md:inline-flex">
+          <svg class="h-4 w-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+            <path d="M12 5v14M5 12h14" stroke-linecap="round" />
+          </svg>
+          บันทึกผล
+        </a>
+      </div>
+    </header>
+
+    <main id="main">
+      <section class="hero-shell">
+        <div class="hero-grid absolute inset-0" aria-hidden="true"></div>
+        <div class="hero-orb absolute -right-24 -top-40 h-[420px] w-[420px] rounded-full bg-brand-500/20 blur-3xl" aria-hidden="true"></div>
+        <div class="hero-orb absolute -bottom-48 left-1/3 h-[360px] w-[360px] rounded-full bg-rose-400/10 blur-3xl" aria-hidden="true"></div>
+
+        <div class="container-page relative z-10 grid items-center gap-12 py-16 lg:grid-cols-[1.12fr_0.88fr] lg:gap-16 lg:py-24">
+          <div class="animate-fade-up">
+            <span class="eyebrow-light">
+              <span class="h-1.5 w-1.5 rounded-full bg-brand-300"></span>
+              Plan · Track · Improve
+            </span>
+
+            <h1 class="mt-6 max-w-3xl font-display text-4xl font-semibold leading-[1.16] tracking-tight text-balance sm:text-5xl lg:text-[3.6rem]">
+              เป้าหมาย KPI
+              <span class="block text-brand-200">แผนก O.A.</span>
+              <span class="mt-2 block text-2xl font-medium text-white/80 sm:text-3xl">ประจำปี 2569</span>
+            </h1>
+
+            <p class="mt-6 max-w-xl text-sm leading-7 text-white/70 sm:text-base sm:leading-8">
+              ศูนย์กลางการติดตามเป้าหมายและผลการดำเนินงานของแผนก O.A.
+              เชื่อมโยงน้ำหนักตัวชี้วัดสู่ผลลัพธ์ที่วัดได้จริง โปร่งใส และพร้อมต่อการพัฒนาในทุกเดือน
+            </p>
+
+            <div class="mt-8 flex flex-wrap gap-3">
+              <a href="#kpiForm" class="btn bg-white px-5 py-3 text-brand-900 shadow-xl shadow-brand-950/25 hover:-translate-y-0.5 hover:bg-brand-50">
+                <svg class="h-4 w-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+                  <path d="M12 20h9M16.5 3.5a2.1 2.1 0 0 1 3 3L8 18l-4 1 1-4Z" stroke-linecap="round" stroke-linejoin="round" />
+                </svg>
+                กรอกผลการดำเนินงาน
+              </a>
+              <a href="performance.html" class="btn-glass px-5 py-3">
+                ดูรายงานผล
+                <svg class="h-4 w-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+                  <path d="M5 12h14m-5-5 5 5-5 5" stroke-linecap="round" stroke-linejoin="round" />
+                </svg>
+              </a>
+            </div>
+
+            <div class="mt-10 grid max-w-xl grid-cols-3 gap-3 border-t border-white/10 pt-6">
+              <div>
+                <p class="font-display text-2xl font-semibold text-white">100%</p>
+                <p class="mt-1 text-[12px] text-white/70">น้ำหนักรวม</p>
+              </div>
+              <div class="border-l border-white/10 pl-4">
+                <p class="font-display text-2xl font-semibold text-white">7</p>
+                <p class="mt-1 text-[12px] text-white/70">ตัวชี้วัดหลัก</p>
+              </div>
+              <div class="border-l border-white/10 pl-4">
+                <p class="font-display text-2xl font-semibold text-white">2569</p>
+                <p class="mt-1 text-[12px] text-white/70">ปีงบประมาณ</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="profile-panel relative animate-float lg:justify-self-end lg:w-full lg:max-w-[390px]">
+            <div class="flex items-center justify-between gap-3">
+              <div>
+                <p class="text-[12px] font-semibold uppercase tracking-[0.22em] text-white/65">Team profile</p>
+                <p class="mt-1 font-display text-sm font-semibold text-white">ทีมงานแผนก O.A.</p>
+              </div>
+              <span id="heroDataBadge" class="rounded-full border border-white/15 bg-white/10 px-3 py-1 text-[12px] font-semibold text-white/80">
+                ข้อมูลตัวอย่าง
+              </span>
+            </div>
+
+            <div class="mt-5 space-y-4">
+              <div class="flex items-center gap-3.5">
+                <img
+                  src="assets/images/employee-sitthiphong.jpg"
+                  alt="ภาพถ่ายนายสิทธิพงศ์ แสงสุวรรณ"
+                  width="403"
+                  height="410"
+                  loading="eager"
+                  class="h-[4.5rem] w-[4.5rem] shrink-0 rounded-[1.25rem] border-2 border-white/25 object-cover object-top shadow-lg shadow-brand-950/30"
+                />
+                <div class="min-w-0">
+                  <p class="font-display text-base font-semibold leading-6 text-white sm:text-lg">นายสิทธิพงศ์ แสงสุวรรณ</p>
+                  <p class="mt-2 inline-flex items-center gap-1.5 rounded-full border border-white/15 bg-white/10 px-2.5 py-1 text-[12px] font-medium text-white/70">
+                    <svg class="h-3.5 w-3.5 shrink-0 text-brand-200" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true">
+                      <rect x="3" y="5" width="18" height="14" rx="2" />
+                      <path d="M7 10h4M7 14h7M16 9h2" stroke-linecap="round" />
+                    </svg>
+                    รหัสพนักงาน <span class="font-display font-semibold tracking-wide text-white">56040104</span>
+                  </p>
+                </div>
+              </div>
+
+              <div class="h-px bg-white/10" aria-hidden="true"></div>
+
+              <div class="flex items-center gap-3.5">
+                <img
+                  src="assets/images/employee-watcharin.jpg"
+                  alt="ภาพถ่ายนายวัชรินทร์ จินาสาย"
+                  width="415"
+                  height="415"
+                  loading="eager"
+                  class="h-[4.5rem] w-[4.5rem] shrink-0 rounded-[1.25rem] border-2 border-white/25 object-cover object-top shadow-lg shadow-brand-950/30"
+                />
+                <div class="min-w-0">
+                  <p class="font-display text-base font-semibold leading-6 text-white sm:text-lg">นายวัชรินทร์ จินาสาย</p>
+                  <p class="mt-2 inline-flex items-center gap-1.5 rounded-full border border-white/15 bg-white/10 px-2.5 py-1 text-[12px] font-medium text-white/70">
+                    <svg class="h-3.5 w-3.5 shrink-0 text-brand-200" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true">
+                      <rect x="3" y="5" width="18" height="14" rx="2" />
+                      <path d="M7 10h4M7 14h7M16 9h2" stroke-linecap="round" />
+                    </svg>
+                    รหัสพนักงาน <span class="font-display font-semibold tracking-wide text-white">66022001</span>
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div class="mt-5 grid grid-cols-2 gap-3">
+              <div class="rounded-2xl border border-white/10 bg-white/[0.06] p-3.5">
+                <p class="text-[12px] text-white/65">แผนก</p>
+                <p class="mt-1 font-display text-sm font-semibold text-white">O.A.</p>
+              </div>
+              <div class="rounded-2xl border border-white/10 bg-white/[0.06] p-3.5">
+                <p class="text-[12px] text-white/65">ปีงบประมาณ</p>
+                <p class="mt-1 font-display text-sm font-semibold text-white">2569</p>
+              </div>
+            </div>
+
+            <p class="mt-4 flex items-center gap-2 text-[12px] leading-5 text-white/65">
+              <svg class="h-3.5 w-3.5 shrink-0" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true">
+                <circle cx="12" cy="12" r="9" />
+                <path d="M12 7v5l3 2" stroke-linecap="round" stroke-linejoin="round" />
+              </svg>
+              <span id="heroUpdated">ข้อมูลตัวอย่าง · แก้ไขและกดบันทึกเพื่ออัปเดต</span>
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section class="relative z-20 -mt-8 pb-4">
+        <div class="container-page">
+          <div class="grid gap-4 sm:grid-cols-2 xl:grid-cols-4">
+            <div class="stat-card" data-reveal>
+              <div class="flex items-start justify-between gap-4">
+                <div class="icon-box">
+                  <svg class="h-5 w-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true">
+                    <path d="M4 19V9m6 10V5m6 14v-7m4 7H2" stroke-linecap="round" />
+                  </svg>
+                </div>
+                <span class="pill-brand">ถ่วงน้ำหนัก</span>
+              </div>
+              <p class="mt-5 text-[13px] font-medium text-slate-500">ผลรวมถ่วงน้ำหนัก</p>
+              <p id="summaryScore" class="mt-1 font-display text-3xl font-semibold tracking-tight text-slate-900">86.7%</p>
+              <div class="progress-track mt-4">
+                <div id="summaryScoreBar" class="progress-fill" style="width: 86.7%"></div>
+              </div>
+            </div>
+
+            <div class="stat-card" data-reveal>
+              <div class="flex items-start justify-between gap-4">
+                <div class="icon-box">
+                  <svg class="h-5 w-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true">
+                    <path d="m12 3 8.5 5v8L12 21l-8.5-5V8L12 3Z" stroke-linejoin="round" />
+                    <path d="M12 12 3.5 8M12 12l8.5-4M12 12v9" stroke-linejoin="round" />
+                  </svg>
+                </div>
+                <span class="pill-neutral">7 รายการ</span>
+              </div>
+              <p class="mt-5 text-[13px] font-medium text-slate-500">น้ำหนักรวมทั้งแผนก</p>
+              <p class="mt-1 font-display text-3xl font-semibold tracking-tight text-slate-900">100%</p>
+              <div class="mt-4 flex h-1.5 gap-1 overflow-hidden rounded-full">
+                <span class="h-full flex-1 bg-brand-900"></span>
+                <span class="h-full flex-1 bg-brand-800"></span>
+                <span class="h-full flex-[3] bg-brand-700"></span>
+                <span class="h-full flex-1 bg-brand-600"></span>
+                <span class="h-full flex-1 bg-brand-500"></span>
+                <span class="h-full flex-1 bg-brand-400"></span>
+                <span class="h-full flex-[2] bg-slate-500"></span>
+              </div>
+            </div>
+
+            <div class="stat-card" data-reveal>
+              <div class="flex items-start justify-between gap-4">
+                <div class="icon-box">
+                  <svg class="h-5 w-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true">
+                    <path d="m5 12 4 4L19 6" stroke-linecap="round" stroke-linejoin="round" />
+                  </svg>
+                </div>
+                <span id="summaryAchievedPill" class="pill-success">3 / 7</span>
+              </div>
+              <p class="mt-5 text-[13px] font-medium text-slate-500">ตัวชี้วัดที่บรรลุเป้าหมาย</p>
+              <p id="summaryAchieved" class="mt-1 font-display text-3xl font-semibold tracking-tight text-slate-900">3 รายการ</p>
+              <p class="mt-4 text-[13px] text-slate-500">นับเฉพาะผลการดำเนินงานที่ถึง 100%</p>
+            </div>
+
+            <div class="stat-card" data-reveal>
+              <div class="flex items-start justify-between gap-4">
+                <div class="icon-box">
+                  <svg class="h-5 w-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true">
+                    <circle cx="12" cy="12" r="9" />
+                    <path d="M12 7v5l3 2" stroke-linecap="round" stroke-linejoin="round" />
+                  </svg>
+                </div>
+                <span id="summarySavedPill" class="pill-neutral">ตัวอย่าง</span>
+              </div>
+              <p class="mt-5 text-[13px] font-medium text-slate-500">อัปเดตล่าสุด</p>
+              <p id="summaryUpdated" class="mt-1 text-lg font-semibold leading-8 text-slate-900">ยังไม่บันทึก</p>
+              <p class="mt-2 text-[13px] text-slate-500">บันทึกอัตโนมัติในเบราว์เซอร์ของคุณ</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="scroll-mt-24 py-14 sm:py-16" aria-labelledby="weight-heading">
+        <div class="container-page">
+          <div class="max-w-3xl" data-reveal>
+            <span class="eyebrow">
+              <span class="h-1.5 w-1.5 rounded-full bg-brand-600"></span>
+              Weight &amp; measurement
+            </span>
+            <h2 id="weight-heading" class="section-title mt-3">ภาพรวมน้ำหนักตัวชี้วัดและเกณฑ์การประเมินผล</h2>
+            <p class="section-copy">
+              สัดส่วนน้ำหนักของ KPI ทั้ง 7 รายการ รวมกัน 100%
+              เทียบกับเกณฑ์ที่ใช้ตัดสินสถานะของแต่ละตัวชี้วัด เพื่อให้เห็นจุดเน้นหลักของแผนก O.A. อย่างชัดเจน
+            </p>
+          </div>
+
+          <div class="mt-8 grid gap-5 lg:grid-cols-12 lg:items-start">
+            <article class="card card-pad lg:col-span-5 xl:col-span-4" data-reveal>
+              <div class="flex items-start justify-between gap-3">
+                <div>
+                  <p class="card-kicker">Weight distribution</p>
+                  <h3 class="card-title mt-1">สัดส่วนน้ำหนัก</h3>
+                </div>
+                <span class="pill-brand shrink-0">รวม 100%</span>
+              </div>
+
+              <div class="mt-6 flex justify-center">
+                <div
+                  id="weightDonut"
+                  class="donut-chart"
+                  role="img"
+                  aria-label="แผนภูมิวงกลมแสดงสัดส่วนน้ำหนักตัวชี้วัดทั้ง 7 รายการ รวม 100%"
+                ></div>
+              </div>
+
+              <ul id="weightLegend" class="mt-6 space-y-2.5 border-t border-slate-100 pt-5" aria-label="น้ำหนักตัวชี้วัดรายรายการ"></ul>
+
+              <p id="weightFocus" class="mt-5 rounded-2xl bg-brand-50/70 px-4 py-3 text-[12px] leading-6 text-brand-900"></p>
+            </article>
+
+            <div class="lg:col-span-7 xl:col-span-8" data-reveal>
+              <div class="flex items-start justify-between gap-3">
+                <div>
+                  <p class="card-kicker">Measurement criteria</p>
+                  <h3 class="card-title mt-1">เกณฑ์การประเมินผล</h3>
+                </div>
+                <span class="pill-neutral shrink-0">4 ระดับ</span>
+              </div>
+
+              <p class="mt-2 text-[13px] leading-6 text-slate-500">
+                ใช้ตัดสินสถานะของแต่ละตัวชี้วัด จากผลการดำเนินงานเทียบกับเป้าหมาย 100%
+              </p>
+
+              <div class="mt-4 grid gap-4 sm:grid-cols-2">
+                <div class="rounded-2xl border border-emerald-100 bg-emerald-50/40 p-5">
+                  <span class="pill-success">100%</span>
+                  <h4 class="mt-3 font-display text-base font-semibold text-slate-900">บรรลุเป้าหมาย</h4>
+                  <p class="mt-1.5 text-[13px] leading-6 text-slate-500">ผลการดำเนินงานครบตามเป้าหมายที่กำหนด</p>
+                </div>
+                <div class="rounded-2xl border border-amber-100 bg-amber-50/40 p-5">
+                  <span class="pill-warning">80–99%</span>
+                  <h4 class="mt-3 font-display text-base font-semibold text-slate-900">ใกล้เป้าหมาย</h4>
+                  <p class="mt-1.5 text-[13px] leading-6 text-slate-500">มีความคืบหน้าชัดเจน ควรเร่งปิดช่องว่างที่เหลือ</p>
+                </div>
+                <div class="rounded-2xl border border-brand-100 bg-brand-50/40 p-5">
+                  <span class="pill-brand">60–79%</span>
+                  <h4 class="mt-3 font-display text-base font-semibold text-slate-900">ต้องติดตาม</h4>
+                  <p class="mt-1.5 text-[13px] leading-6 text-slate-500">ควรมีแผนแก้ไขและติดตามความคืบหน้าอย่างใกล้ชิด</p>
+                </div>
+                <div class="rounded-2xl border border-rose-100 bg-rose-50/40 p-5">
+                  <span class="pill-danger">ต่ำกว่า 60%</span>
+                  <h4 class="mt-3 font-display text-base font-semibold text-slate-900">ล่าช้า</h4>
+                  <p class="mt-1.5 text-[13px] leading-6 text-slate-500">ต้องรายงานสาเหตุและกำหนดมาตรการแก้ไขทันที</p>
+                </div>
+              </div>
+
+              <div class="mt-4 rounded-2xl border border-slate-100 bg-slate-50/70 p-5">
+                <div class="flex flex-wrap items-center justify-between gap-2">
+                  <p class="text-[13px] font-semibold text-slate-700">การแปลผลคะแนนรวมถ่วงน้ำหนัก</p>
+                  <span class="pill-neutral">คะแนนเต็ม 100</span>
+                </div>
+                <div class="mt-3 grid gap-2 sm:grid-cols-2">
+                  <div class="flex items-center justify-between gap-3 rounded-xl bg-white px-3.5 py-2.5 text-[13px] shadow-sm">
+                    <span class="font-semibold tabular-nums text-slate-600">95–100</span>
+                    <span class="pill-success">ยอดเยี่ยม</span>
+                  </div>
+                  <div class="flex items-center justify-between gap-3 rounded-xl bg-white px-3.5 py-2.5 text-[13px] shadow-sm">
+                    <span class="font-semibold tabular-nums text-slate-600">85–94</span>
+                    <span class="pill-brand">ดีมาก</span>
+                  </div>
+                  <div class="flex items-center justify-between gap-3 rounded-xl bg-white px-3.5 py-2.5 text-[13px] shadow-sm">
+                    <span class="font-semibold tabular-nums text-slate-600">70–84</span>
+                    <span class="pill-warning">ตามเป้าหมาย</span>
+                  </div>
+                  <div class="flex items-center justify-between gap-3 rounded-xl bg-white px-3.5 py-2.5 text-[13px] shadow-sm">
+                    <span class="font-semibold tabular-nums text-slate-600">ต่ำกว่า 70</span>
+                    <span class="pill-danger">ต้องติดตาม</span>
+                  </div>
+                </div>
+                <p class="mt-3 text-[12px] leading-6 text-slate-500">
+                  คะแนนรวมถ่วงน้ำหนัก = ผลรวมของ (ผลการดำเนินงานแต่ละตัวชี้วัด × น้ำหนัก %) เทียบกับเป้าหมาย 100%
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="kpiFormSection" class="scroll-mt-24 border-y border-brand-100/70 bg-gradient-to-b from-brand-50/50 to-white py-14 sm:py-16">
+        <div class="container-page">
+          <div class="flex flex-col justify-between gap-4 md:flex-row md:items-end" data-reveal>
+            <div>
+              <span class="eyebrow">
+                <span class="h-1.5 w-1.5 rounded-full bg-brand-600"></span>
+                Performance entry
+              </span>
+              <h2 class="section-title mt-3">บันทึกผลการดำเนินงาน</h2>
+              <p class="section-copy">
+                กรอกผลการดำเนินงานเป็นเปอร์เซ็นต์ (0–100) ระบบจะคำนวณคะแนนถ่วงน้ำหนักและสถานะให้ทันที
+              </p>
+            </div>
+            <span id="formSampleBadge" class="pill-warning w-fit">กำลังแสดงข้อมูลตัวอย่าง</span>
+          </div>
+
+          <form id="kpiForm" class="mt-8 space-y-5" autocomplete="off">
+            <div class="card card-pad" data-reveal>
+              <div class="flex flex-col justify-between gap-5 lg:flex-row lg:items-end">
+                <div>
+                  <p class="card-kicker">Report information</p>
+                  <h3 class="card-title mt-1">ข้อมูลการรายงาน</h3>
+                  <p class="mt-1.5 text-[13px] text-slate-500">ระบุผู้บันทึก รอบเดือน และวันที่รายงาน</p>
+                </div>
+                <div class="grid w-full gap-3 sm:grid-cols-3 lg:max-w-2xl">
+                  <label>
+                    <span class="form-label">ผู้บันทึก</span>
+                    <input id="reporter" class="field" type="text" maxlength="80" placeholder="ชื่อ-นามสกุล" />
+                  </label>
+                  <label>
+                    <span class="form-label">รอบรายงาน</span>
+                    <select id="reportMonth" class="select-field"></select>
+                  </label>
+                  <label>
+                    <span class="form-label">วันที่รายงาน</span>
+                    <input id="reportDate" class="field" type="date" />
+                  </label>
+                </div>
+              </div>
+            </div>
+
+            <article class="card overflow-hidden" data-reveal>
+              <div class="flex flex-col justify-between gap-3 border-b border-slate-100 p-5 sm:flex-row sm:items-center sm:p-7">
+                <div>
+                  <div class="flex items-center gap-2">
+                    <span class="grid h-9 w-9 place-items-center rounded-xl bg-brand-50 text-brand-700">
+                      <svg class="h-4.5 w-4.5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true">
+                        <path d="M4 19V9m6 10V5m6 14v-7m4 7H2" stroke-linecap="round" />
+                      </svg>
+                    </span>
+                    <div>
+                      <p class="card-kicker">Department KPI</p>
+                      <h3 class="card-title">เป้าหมายรวมแผนก O.A.</h3>
+                    </div>
+                  </div>
+                  <p class="mt-2 text-[13px] leading-6 text-slate-500">
+                    ทั้ง 7 ตัวชี้วัดมีเป้าหมายที่ 100% และมีน้ำหนักรวม 100%
+                  </p>
+                </div>
+                <span class="pill-neutral w-fit">7 ตัวชี้วัด · น้ำหนัก 100%</span>
+              </div>
+              <div class="overflow-x-auto scrollbar-thin">
+                <table class="data-table min-w-[940px]">
+                  <thead>
+                    <tr>
+                      <th class="w-16">ลำดับ</th>
+                      <th>ตัวชี้วัด / เป้าหมาย</th>
+                      <th class="w-24 text-center">น้ำหนัก</th>
+                      <th class="w-24 text-center">เป้าหมาย</th>
+                      <th class="w-32 text-center">ผลการดำเนิน (%)</th>
+                      <th class="w-44">ความคืบหน้า</th>
+                      <th class="w-32">สถานะ</th>
+                    </tr>
+                  </thead>
+                  <tbody id="overallRows"></tbody>
+                  <tfoot>
+                    <tr class="bg-brand-50/60">
+                      <td colspan="2" class="px-4 py-4 text-right text-[13px] font-semibold uppercase tracking-[0.08em] text-slate-500">รวม</td>
+                      <td class="px-4 py-4 text-center font-display text-base font-semibold text-brand-900">100%</td>
+                      <td class="px-4 py-4 text-center text-[13px] text-slate-500">—</td>
+                      <td class="px-4 py-4 text-center">
+                        <span id="formScoreInline" class="font-display text-base font-semibold text-brand-800">86.7%</span>
+                      </td>
+                      <td colspan="2" class="px-4 py-4 text-[13px] text-slate-500">คะแนนถ่วงน้ำหนักรวม</td>
+                    </tr>
+                  </tfoot>
+                </table>
+              </div>
+            </article>
+
+            <article class="card overflow-hidden" data-reveal>
+              <div class="flex flex-col justify-between gap-4 border-b border-slate-100 p-5 sm:p-7 lg:flex-row lg:items-end">
+                <div>
+                  <div class="flex items-center gap-2">
+                    <span class="grid h-9 w-9 place-items-center rounded-xl bg-brand-50 text-brand-700">
+                      <svg class="h-4.5 w-4.5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true">
+                        <rect x="3" y="5" width="18" height="16" rx="2" />
+                        <path d="M8 3v4M16 3v4M3 11h18" stroke-linecap="round" />
+                      </svg>
+                    </span>
+                    <div>
+                      <p class="card-kicker">Monthly KPI</p>
+                      <h3 class="card-title">บันทึกผลการดำเนินงานรายเดือน</h3>
+                    </div>
+                  </div>
+                  <p class="mt-2 text-[13px] leading-6 text-slate-500">
+                    เลือกเดือน แล้วกรอกผลของทั้ง 7 ตัวชี้วัด ข้อมูลจะแสดงในตารางผลการดำเนินงานรายปีของหน้ารายงาน
+                  </p>
+                </div>
+                <div class="flex w-full flex-wrap items-end gap-3 sm:w-auto">
+                  <label class="min-w-[9rem] flex-1 sm:w-48 sm:flex-none">
+                    <span class="form-label">เดือนที่บันทึก</span>
+                    <select id="monthlyMonth" class="select-field"></select>
+                  </label>
+                  <span id="monthlyScorePill" class="pill-brand mb-1">86.7%</span>
+                </div>
+              </div>
+              <div class="overflow-x-auto scrollbar-thin">
+                <table class="data-table min-w-[760px]">
+                  <thead>
+                    <tr>
+                      <th class="w-16">ลำดับ</th>
+                      <th>ตัวชี้วัด</th>
+                      <th class="w-24 text-center">น้ำหนัก</th>
+                      <th class="w-24 text-center">เป้าหมาย</th>
+                      <th class="w-32 text-center">ผลการดำเนิน (%)</th>
+                    </tr>
+                  </thead>
+                  <tbody id="monthlyRows"></tbody>
+                  <tfoot>
+                    <tr class="bg-brand-50/60">
+                      <td colspan="2" class="px-4 py-4 text-right text-[13px] font-semibold uppercase tracking-[0.08em] text-slate-500">คะแนนถ่วงน้ำหนักของเดือน</td>
+                      <td class="px-4 py-4 text-center font-display text-base font-semibold text-brand-900">100%</td>
+                      <td class="px-4 py-4 text-center text-[13px] text-slate-500">—</td>
+                      <td class="px-4 py-4 text-center">
+                        <span id="monthlyScoreInline" class="font-display text-base font-semibold text-brand-800">86.7%</span>
+                      </td>
+                    </tr>
+                  </tfoot>
+                </table>
+              </div>
+            </article>
+
+            <div class="grid gap-5">
+              <article class="card overflow-hidden" data-reveal>
+                <div class="border-b border-slate-100 p-5 sm:p-7">
+                  <div class="flex items-center gap-2">
+                    <span class="grid h-9 w-9 place-items-center rounded-xl bg-brand-50 text-brand-700">
+                      <svg class="h-5 w-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true">
+                        <path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2" stroke-linecap="round" stroke-linejoin="round" />
+                        <circle cx="9" cy="7" r="4" />
+                        <path d="M22 21v-2a4 4 0 0 0-3-3.87M16 3.13a4 4 0 0 1 0 7.75" stroke-linecap="round" />
+                      </svg>
+                    </span>
+                    <div>
+                      <p class="card-kicker">Individual KPI · Leader</p>
+                      <h3 class="card-title">หัวหน้าแผนก O.A.</h3>
+                    </div>
+                  </div>
+                  <p class="mt-2 text-[13px] leading-6 text-slate-500">เป้าหมายระดับบุคคลของหัวหน้าแผนก</p>
+                </div>
+                <div class="overflow-x-auto scrollbar-thin">
+                  <table class="data-table min-w-[700px]">
+                    <thead>
+                      <tr>
+                        <th>หัวข้อเป้าหมาย</th>
+                        <th class="w-36">เป้าหมาย</th>
+                        <th class="w-28 text-center">ผล (%)</th>
+                        <th class="w-36">ความคืบหน้า</th>
+                        <th class="w-28">สถานะ</th>
+                      </tr>
+                    </thead>
+                    <tbody id="headRows"></tbody>
+                  </table>
+                </div>
+              </article>
+
+              <article class="card overflow-hidden" data-reveal>
+                <div class="border-b border-slate-100 p-5 sm:p-7">
+                  <div class="flex items-center gap-2">
+                    <span class="grid h-9 w-9 place-items-center rounded-xl bg-brand-50 text-brand-700">
+                      <svg class="h-5 w-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true">
+                        <path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2" stroke-linecap="round" stroke-linejoin="round" />
+                        <circle cx="9" cy="7" r="4" />
+                        <path d="M22 21v-2a4 4 0 0 0-3-3.87M16 3.13a4 4 0 0 1 0 7.75" stroke-linecap="round" />
+                        <path d="M19 8v6M16 11h6" stroke-linecap="round" />
+                      </svg>
+                    </span>
+                    <div>
+                      <p class="card-kicker">Individual KPI · Officer</p>
+                      <h3 class="card-title">เจ้าหน้าที่ O.A.</h3>
+                    </div>
+                  </div>
+                  <p class="mt-2 text-[13px] leading-6 text-slate-500">เป้าหมายระดับบุคคลของเจ้าหน้าที่ O.A. ทั้ง 2 รายการ</p>
+                </div>
+                <div class="overflow-x-auto scrollbar-thin">
+                  <table class="data-table min-w-[820px]">
+                    <thead>
+                      <tr>
+                        <th>หัวข้อเป้าหมาย</th>
+                        <th class="w-20">หมวด</th>
+                        <th class="w-32 text-center">ผล (%)</th>
+                        <th class="w-36">ความคืบหน้า</th>
+                        <th class="w-28">สถานะ</th>
+                      </tr>
+                    </thead>
+                    <tbody id="staffRows"></tbody>
+                  </table>
+                </div>
+              </article>
+            </div>
+
+            <div class="overflow-hidden rounded-3xl bg-gradient-to-br from-brand-950 via-brand-900 to-brand-800 p-5 text-white shadow-card sm:p-7" data-reveal>
+              <div class="flex flex-col justify-between gap-6 lg:flex-row lg:items-center">
+                <div class="flex items-center gap-4">
+                  <div class="grid h-14 w-14 shrink-0 place-items-center rounded-2xl border border-white/15 bg-white/10 backdrop-blur">
+                    <svg class="h-6 w-6 text-brand-100" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true">
+                      <path d="M4 19V9m6 10V5m6 14v-7m4 7H2" stroke-linecap="round" />
+                    </svg>
+                  </div>
+                  <div>
+                    <p class="text-[12px] font-semibold uppercase tracking-[0.2em] text-white/65">Weighted score</p>
+                    <div class="mt-1 flex items-baseline gap-2">
+                      <span id="formScore" class="font-display text-3xl font-semibold text-white">86.7%</span>
+                      <span class="text-[13px] text-white/65">จากเป้าหมาย 100%</span>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="flex flex-wrap gap-3">
+                  <button id="resetButton" class="btn-glass px-4 py-2.5" type="button">
+                    <svg class="h-4 w-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true">
+                      <path d="M3 12a9 9 0 1 0 3-6.7L3 8" stroke-linecap="round" stroke-linejoin="round" />
+                      <path d="M3 3v5h5" stroke-linecap="round" stroke-linejoin="round" />
+                    </svg>
+                    ล้างผล
+                  </button>
+                  <button class="btn-glass px-4 py-2.5" type="button" data-print>
+                    <svg class="h-4 w-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true">
+                      <path d="M6 9V3h12v6M6 18H4a2 2 0 0 1-2-2v-5a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v5a2 2 0 0 1-2 2h-2" stroke-linecap="round" stroke-linejoin="round" />
+                      <path d="M6 14h12v7H6z" stroke-linejoin="round" />
+                    </svg>
+                    พิมพ์
+                  </button>
+                  <button class="btn bg-white px-5 py-2.5 text-brand-900 shadow-lg shadow-brand-950/20 hover:-translate-y-0.5 hover:bg-brand-50" type="submit">
+                    <svg class="h-4 w-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+                      <path d="M19 21H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11l5 5v11a2 2 0 0 1-2 2Z" stroke-linejoin="round" />
+                      <path d="M17 21v-8H7v8M7 3v5h8" stroke-linejoin="round" />
+                    </svg>
+                    บันทึกผลการดำเนินงาน
+                  </button>
+                </div>
+              </div>
+              <p id="formHint" class="mt-4 text-[12px] leading-6 text-white/65">
+                ข้อมูลจะถูกจัดเก็บไว้ในเบราว์เซอร์เครื่องนี้ และแสดงผลต่อในหน้ารายงานผลการดำเนินงาน
+              </p>
+            </div>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer border-t border-brand-100/70 bg-white py-8">
+      <div class="container-page flex flex-col items-start justify-between gap-3 text-[13px] text-slate-500 sm:flex-row sm:items-center">
+        <p>© 2569 แผนก O.A. · KPI Performance Dashboard</p>
+        <p>ออกแบบเพื่อการติดตามเป้าหมายอย่างโปร่งใสและวัดผลได้</p>
+      </div>
+    </footer>
+
+    <div id="toast" class="toast" role="status" aria-live="polite">
+      <span data-toast-icon class="grid h-8 w-8 place-items-center rounded-full bg-emerald-100 text-emerald-600">
+        <svg class="h-4 w-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" aria-hidden="true">
+          <path d="m5 12 4 4L19 6" stroke-linecap="round" stroke-linejoin="round" />
+        </svg>
+      </span>
+      <span data-toast-text></span>
+    </div>
+
+    <script src="assets/js/data.js" defer></script>
+    <script src="assets/js/common.js" defer></script>
+    <script src="assets/js/app.js" defer></script>
+  </body>
+</html>

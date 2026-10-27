@@ -1,0 +1,15 @@
+{
+  "name": "kpi-oa-2569",
+  "version": "1.0.0",
+  "private": true,
+  "description": "เว็บแอป KPI แผนก O.A. ประจำปี 2569",
+  "scripts": {
+    "dev": "tailwindcss -i ./src/input.css -o ./assets/css/styles.css --watch",
+    "build:css": "tailwindcss -i ./src/input.css -o ./assets/css/styles.css --minify",
+    "build": "npm run build:css",
+    "preview": "node ./scripts/serve.js"
+  },
+  "devDependencies": {
+    "tailwindcss": "3.4.17"
+  }
+}
